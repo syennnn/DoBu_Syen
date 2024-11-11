@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/classes.css">
+</head>
+<body class="bg-white text-charcoal-black">
+
+    <nav class="navbar py-4" style="background-image: url('images/navbg1.jpg'); background-size: cover; background-position: center;">
+        <div class="container mx-auto flex items-center justify-between">
+            
+            <div class="nav-links flex items-center space-x-1"> 
+                <a href="index.html" class="logo-link"> 
+                    <img src="images/logo.png" alt="Dobu Logo" style="width: 140px;">
+                </a>       
+                <div class="hidden md:flex items-center space-x-10">
+                    <a href="Classes.html" class="nav-link">Classes & Programs</a>
+                    <a href="Membership.html" class="nav-link">Membership</a>
+                    <a href="Events.html" class="nav-link">Events</a>
+                    <a href="Aboutus.html" class="nav-link">About Us</a>
+                    <a href="Contact.html" class="nav-link">Contact Us</a>
+                </div>
+            </div>
+            
+            <div class="md:hidden flex justify-end">
+                <button id="mobile-menu-button" class="text-deep-red focus:outline-none">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-ivory">
+                <div class="flex flex-col space-y-4">
+                    <a href="Classes.html" class="nav-link block px-4 py-2">Classes & Programs</a>
+                    <a href="Membership.html" class="nav-link block px-4 py-2">Membership</a>
+                    <a href="Events.html" class="nav-link block px-4 py-2">Events</a>
+                    <a href="Aboutus.html" class="nav-link block px-4 py-2">About Us</a>
+                    <a href="Contact.html" class="nav-link block px-4 py-2">Contact Us</a>
+                </div>
+        </div>
+    </nav>
+    
+    <main class="container mx-auto my-12">
+        <section class="classes-section mb-16">
+            <h2 class="section-header text-center">Classes Detail</h2>
+    
+            <div class="class-detail-card flex flex-col md:flex-row mb-8 items-center">
+                <img src="images/bg3.png" alt="Class 1" class="class-image">
+                <div class="class-info">
+                    <h3 class="class-title">Jiu-jitsu Training</h3>
+                    <p class="class-description">
+                        Dive into the art of Jiu-jitsu, where leverage and technique are key. This class teaches the fundamentals of grappling, joint locks, and submission holds, designed to help students control their opponents without relying on brute strength. Students will learn effective ground-fighting techniques that are both practical and versatile, making Jiu-jitsu a popular choice for self-defense. Guided by skilled instructors, this class emphasizes control, precision, and adaptability in a safe and supportive environment.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="class-detail-card flex flex-col md:flex-row-reverse mb-8 items-center">
+                <img src="images/bg14.png" alt="Class 2" class="class-image">
+                <div class="class-info">
+                    <h3 class="class-title">Karate Fundamentals</h3>
+                    <p class="class-description">
+                        Karate is the art of striking, combining powerful punches, kicks, and blocks with a strong focus on discipline and respect. This class provides a structured curriculum that covers the basics of traditional Karate, including kata (forms) and kumite (sparring). Students will enhance their speed, strength, and agility while learning the values of patience and self-control. Suitable for all ages and skill levels, Karate builds confidence, respect, and a deeper understanding of martial arts.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="class-detail-card flex flex-col md:flex-row mb-8 items-center">
+                <img src="images/bg15.png" alt="Class 3" class="class-image">
+                <div class="class-info">
+                    <h3 class="class-title">Judo Techniques and Throws</h3>
+                    <p class="class-description">
+                        Judo, often translated as "the gentle way," focuses on throwing and grappling techniques that allow students to control opponents by using their own momentum. In this class, students will learn a variety of throws, pins, and submission techniques, emphasizing balance and coordination. Through Judo, students develop a deep understanding of body mechanics and spatial awareness. This class is ideal for those looking to improve their physical and mental strength in a respectful and disciplined environment.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="class-detail-card flex flex-col md:flex-row-reverse mb-8 items-center">
+                <img src="images/bg16.jpg" alt="Class 4" class="class-image">
+                <div class="class-info">
+                    <h3 class="class-title">Muay Thai Kickboxing</h3>
+                    <p class="class-description">
+                        Known as the "Art of Eight Limbs," Muay Thai utilizes fists, elbows, knees, and shins to create a powerful and dynamic fighting style. This class teaches the core techniques of Muay Thai, including striking combinations, clinch work, and defensive movements. Students will improve their cardiovascular fitness, strength, and resilience through high-energy drills and pad work. With a focus on endurance and precision, Muay Thai offers a challenging workout and valuable self-defense skills.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+        <div class="container mx-auto p-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-0">
+                <div class="bg-ivory rounded-lg shadow-lg overflow-hidden text-center">
+                    <img src="images/pt.png" alt="Private Tuition" class="w-full h-48 object-cover rounded-t-lg">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-deep-red">Private Martial Arts Tuition</h3>
+                        <p class="text-sm text-charcoal-black mb-2">
+                            Per hour: £15.00
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="bg-ivory rounded-lg shadow-lg overflow-hidden text-center">
+                    <img src="images/bg31.jpg" alt="Fitness Room" class="w-full h-48 object-cover rounded-t-lg">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-deep-red">Use of Fitness Room</h3>
+                        <p class="text-sm text-charcoal-black mb-2">
+                            Per visit: £6.00
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-ivory rounded-lg shadow-lg overflow-hidden text-center">
+                    <img src="images/bg23.png" alt="Junior Membership" class="w-full h-48 object-cover rounded-t-lg">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-deep-red">Junior Membership</h3>
+                        <p class="text-sm text-charcoal-black mb-2">
+                            Attend all kids martial arts sessions: £25.00
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="bg-ivory rounded-lg shadow-lg overflow-hidden text-center">
+                    <img src="images/bg27.png" alt="Self-Defence Course" class="w-full h-48 object-cover rounded-t-lg">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-deep-red">Six-Week Self-Defence Course</h3>
+                        <p class="text-sm text-charcoal-black mb-2">
+                            (2 × 1-hour sessions per week): £180.00
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-ivory rounded-lg shadow-lg overflow-hidden text-center">
+                    <img src="images/bg32.png" alt="Personal Fitness Training" class="w-full h-48 object-cover rounded-t-lg">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-deep-red">Personal Fitness Training</h3>
+                        <p class="text-sm text-charcoal-black mb-2">
+                            Per hour: £35.00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-8">
+                <a href="Membership.html#register-form-section" class="register-btn text-white bg-deep-red w-full max-w-lg px-8 py-4 text-lg font-semibold hover:bg-red-700 transition duration-200">
+                    Register Now
+                </a>
+            </div>
+            
+        </div>
+        </section>
+        
+        <section class="py-5">
+            <div class="container bg-facility text-center">
+                <div class="facility-header">
+                    <h1 class="facility-title">Our Facilities</h1>
+                </div>
+                <div class="facility-text">
+                    Experience the Best in Training and Relaxation
+                </div>
+                <div class="row">
+                    
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="images/bg9.png" class="card-img-top" alt="Matted Martial Arts Area">
+                            <div class="card-body">
+                                <h5 class="card-title">Matted Martial Arts Area</h5>
+                                <p class="card-text">A safe and spacious matted area designed specifically for martial arts practice.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="images/bg17.jpg" class="card-img-top" alt="Fully-Equipped Gym">
+                            <div class="card-body">
+                                <h5 class="card-title">Fully-Equipped Gym</h5>
+                                <p class="card-text">State-of-the-art equipment and weights for a full workout experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="images/suna1.png" class="card-img-top" alt="Sauna">
+                            <div class="card-body">
+                                <h5 class="card-title">Sauna</h5>
+                                <p class="card-text">Relax and unwind in our traditional sauna for a rejuvenating experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="images/bg18.png" class="card-img-top" alt="Steam Room">
+                            <div class="card-body">
+                                <h5 class="card-title">Steam Room</h5>
+                                <p class="card-text">Detoxify and refresh in our modern steam room.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="images/bg21.jpg" class="card-img-top" alt="Changing Room">
+                            <div class="card-body">
+                                <h5 class="card-title">Changing Rooms</h5>
+                                <p class="card-text">Spacious and clean changing rooms for your comfort and convenience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="images/bg20.jpg" class="card-img-top" alt="Shower Facilities">
+                            <div class="card-body">
+                                <h5 class="card-title">Shower Facilities</h5>
+                                <p class="card-text">Refresh and revitalize after training with our modern shower facilities.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    
+    <footer class="footer p-8">
+        <div class="container mx-auto grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
+            <div>
+                <h3 class="footer-heading mb-2">Do Bu</h3>
+                <ul>
+                    <li><a href="Index.html" class="footer-link">Home</a></li>
+                    <li><a href="Classes.html" class="footer-link">Classes & Programs</a></li>
+                    <li><a href="Membership.html" class="footer-link">Membership</a></li>
+                    <li><a href="Events.html" class="footer-link">Events</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading mb-2">Legal</h3>
+                <ul>
+                    <li><a href="Accessibility.html" class="footer-link">Accessibility</a></li>
+                    <li><a href="Privacy.html" class="footer-link">Privacy Policy</a></li>
+                    <li><a href="Terms&Conditions.html" class="footer-link">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading mb-2">Help</h3>
+                <ul>
+                    <li><a href="FAQs.html" class="footer-link">FAQs</a></li>
+                    <li><a href="Classes.html" class="footer-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading mb-2">Company</h3>
+                <ul>
+                    <li><a href="Aboutus.html" class="footer-link">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-8 flex justify-center space-x-6">
+            <a href="https://www.instagram.com/"><img src="images/Instagram.png" alt="Instagram" class="footer-icon"></a>
+            <a href="https://www.facebook.com/"><img src="images/Facebook.png" alt="Facebook" class="footer-icon"></a>
+            <a href="https://x.com/"><img src="images/X.png" alt="Twitter" class="footer-icon"></a>
+            <a href="https://www.youtube.com/"><img src="images/YT.png" alt="YouTube" class="footer-icon"></a>
+        </div>
+        <div class="footer-text mt-4">
+            If you are using a screen reader and are having problems using this website, please call <span class="font-medium">&lt;959 428 591 936&gt;</span> for assistance.
+        </div>
+        <div class="footer-copyright mt-2">
+            &copy; 2024 DoBu Martial Arts. All rights reserved.
+        </div>
+    </footer> 
+
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

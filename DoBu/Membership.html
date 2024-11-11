@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/membership.css">
+</head>
+<body class="bg-white text-charcoal-black">
+
+    <nav class="navbar py-4" style="background-image: url('images/navbg1.jpg'); background-size: cover; background-position: center;">
+        <div class="container mx-auto flex items-center justify-between">
+            <div class="nav-links flex items-center space-x-1"> 
+                <a href="index.html" class="logo-link"> 
+                    <img src="images/logo.png" alt="Dobu Logo" style="width: 140px;">
+                </a>       
+                <div class="hidden md:flex items-center space-x-10">
+                    <a href="Classes.html" class="nav-link">Classes & Programs</a>
+                    <a href="Membership.html" class="nav-link">Membership</a>
+                    <a href="Events.html" class="nav-link">Events</a>
+                    <a href="Aboutus.html" class="nav-link">About Us</a>
+                    <a href="Contact.html" class="nav-link">Contact Us</a>
+                </div>
+            </div>
+            
+            <div class="md:hidden flex justify-end">
+                <button id="mobile-menu-button" class="text-deep-red focus:outline-none">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-ivory">
+                <div class="flex flex-col space-y-4">
+                    <a href="Classes.html" class="nav-link block px-4 py-2">Classes & Programs</a>
+                    <a href="Membership.html" class="nav-link block px-4 py-2">Membership</a>
+                    <a href="Events.html" class="nav-link block px-4 py-2">Events</a>
+                    <a href="Aboutus.html" class="nav-link block px-4 py-2">About Us</a>
+                    <a href="Contact.html" class="nav-link block px-4 py-2">Contact Us</a>
+                </div>
+        </div>
+    </nav>
+
+    <main >
+        <section class="py-5">
+            <div class="containerc text-center bg-destination" style="background-image: url('images/bg35.jpg'); 
+            background-repeat: no-repeat;
+            background-size: cover;">
+                <div class="membership-content">
+                    <div class="membership-header">
+                        <h2 class="membership-topper">Membership Plans</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 mb-4">
+                        <a href="#register-form-section">
+                        <div class="card membership-card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Basic</h5>
+                                <p class="card-text">1 martial art</p>
+                                <p class="card-text">2 sessions per week</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><strong>£25.00</strong></li>
+                                    <li class="list-group-item">Perfect for beginners</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 mb-4">
+                        <a href="#register-form-section">
+                        <div class="card membership-card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Intermediate</h5>
+                                <p class="card-text">1 martial art</p>
+                                <p class="card-text">3 sessions per week</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><strong>£35.00</strong></li>
+                                    <li class="list-group-item">Ideal for skill improvement</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 mb-4">
+                        <a href="#register-form-section">
+                        <div class="card membership-card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Advanced</h5>
+                                <p class="card-text">2 martial arts</p>
+                                <p class="card-text">5 sessions per week</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><strong>£45.00</strong></li>
+                                    <li class="list-group-item">For dedicated martial artists</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 mb-4">
+                        <a href="#register-form-section">
+                        <div class="card membership-card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Elite</h5>
+                                <p class="card-text">Unlimited classes</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><strong>£60.00</strong></li>
+                                    <li class="list-group-item">Ultimate access to all classes</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 mb-4">
+                        <a href="#register-form-section">
+                        <div class="card membership-card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Junior</h5>
+                                <p class="card-text">All martial arts sessions</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><strong>£25.00</strong></li>
+                                    <li class="list-group-item">Perfect for young martial artists</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container mt-5" >
+                <div class="theader">
+                <h2>Martial Arts Class Timetable</h2>
+                </div>
+                <table class="table timetable table-bordered" >
+                  <thead>
+                    <tr>
+                      <th>Time</th>
+                      <th>Monday</th>
+                      <th>Tuesday</th>
+                      <th>Wednesday</th>
+                      <th>Thursday</th>
+                      <th>Friday</th>
+                      <th>Saturday</th>
+                      <th>Sunday</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">06:00 07:30 AM</th>
+                      <td>Jiu-jitsu</td>
+                      <td>Karate</td>
+                      <td>Judo</td>
+                      <td>Jiu-jitsu</td>
+                      <td>Muay Thai</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">08:00 10:00 AM</th>
+                      <td>Muay Thai</td>
+                      <td>Private tuition</td>
+                      <td>Private tuition</td>
+                      <td>Private tuition</td>
+                      <td>Jiu-jitsu</td>
+                      <td>Private tuition</td>
+                      <td>Private tuition</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10:30 12:00 AM</th>
+                      <td>Private tuition</td>
+                      <td>Private tuition</td>
+                      <td>Private tuition</td>
+                      <td>Private tuition</td>
+                      <td>Private tuition</td>
+                      <td>Judo</td>
+                      <td>Karate</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">01:00 02:30 PM</th>
+                      <td>Open mat/ personal practice</td>
+                      <td>Open mat/ personal practice</td>
+                      <td>Open mat/ personal practice</td>
+                      <td>Open mat/ personal practice</td>
+                      <td>Open mat/ personal practice</td>
+                      <td>Karate</td>
+                      <td>Judo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">03:00 05:00 PM</th>
+                      <td>Kids jiu-jitsu</td>
+                      <td>Kids judo</td>
+                      <td>Kids karate</td>
+                      <td>Kids jiu-jitsu</td>
+                      <td>Kids judo</td>
+                      <td>Muay Thai</td>
+                      <td>Jiu-jitsu</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">05:30 07:00 PM</th>
+                      <td>Karate</td>
+                      <td>Muay Thai</td>
+                      <td>Judo</td>
+                      <td>Jiu-jitsu</td>
+                      <td>Muay Thai</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">07:00 09:00 PM</th>
+                      <td>Jiu-jitsu</td>
+                      <td>Judo</td>
+                      <td>Jiu-jitsu</td>
+                      <td>Karate</td>
+                      <td>Private tuition</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+        </section>
+        <div class="container d-flex justify-content-center align-items-center">
+            <section id="register-form-section" class="form-section">
+                <div class="form-header">
+                    <h2>Register Form</h2>
+                </div>
+        
+                <form id="registrationForm">
+                    <div class="mb-3">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstName" required>
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" required>
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="age" class="form-label">Age</label>
+                            <input type="number" class="form-control" id="age" min="0" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" required>
+                        </div>
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="membership" class="form-label">Membership Option</label>
+                        <select class="form-select" id="membership" required>
+                            <option value="">Select Membership</option>
+                            <option value="Basic">Basic Membership</option>
+                            <option value="Intermediate">Intermediate Membership</option>
+                            <option value="Advanced">Advanced Membership</option>
+                            <option value="Elite">Elite Membership</option>
+                            <option value="Junior">Junior Membership</option>
+                        </select>
+                    </div>
+        
+                    <div class="mb-3">
+                        <label class="form-label">Additional Items</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="privateTuition">
+                            <label class="form-check-label" for="privateTuition">Private martial arts tuition</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="selfDefense">
+                            <label class="form-check-label" for="selfDefense">Six-week beginners’ self-defence course</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="fitnessRoom">
+                            <label class="form-check-label" for="fitnessRoom">Use of fitness room</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="personalTraining">
+                            <label class="form-check-label" for="personalTraining">Personal fitness training</label>
+                        </div>
+                        <label class="form-label">Events</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="CNYshowCase">
+                            <label class="form-check-label" for="CNYshowCase">Chinese New Year Martial Arts Showcase</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="MAworkShop">
+                            <label class="form-check-label" for="MAworkShop">Martial Arts Techniques Workshop</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="SDseminar">
+                            <label class="form-check-label" for="SDseminar">Self-Defense Seminar</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="AMtournament">
+                            <label class="form-check-label" for="AMtournament">Annual Martial Arts Tournament</label>
+                        </div>
+                    </div>
+        
+                    <h5 class="mt-4">Payment Method</h5>
+                    <div class="payment-icons">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/visa.png" alt="Visa">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/mastercard.png" alt="Mastercard">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/amex.png" alt="Amex">
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="cardNumber" class="form-label">Card Number</label>
+                        <input type="text" class="form-control" id="cardNumber" required>
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="cardName" class="form-label">Name on card</label>
+                        <input type="text" class="form-control" id="cardName" required>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <label for="expiryDate" class="form-label">MM/YY</label>
+                            <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY" required>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <label for="cvv" class="form-label">CVV</label>
+                            <input type="number" class="form-control" id="cvv" min="0" required>
+                        </div>
+                    </div>
+        
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-register">Submit</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+        
+    </main>
+    
+    <footer class="footer p-8">
+        <div class="container mx-auto grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
+            <div>
+                <h3 class="footer-heading mb-2">Do Bu</h3>
+                <ul>
+                    <li><a href="Index.html" class="footer-link">Home</a></li>
+                    <li><a href="Classes.html" class="footer-link">Classes & Programs</a></li>
+                    <li><a href="Membership.html" class="footer-link">Membership</a></li>
+                    <li><a href="Events.html" class="footer-link">Events</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading mb-2">Legal</h3>
+                <ul>
+                    <li><a href="Accessibility.html" class="footer-link">Accessibility</a></li>
+                    <li><a href="Privacy.html" class="footer-link">Privacy Policy</a></li>
+                    <li><a href="Terms&Conditions.html" class="footer-link">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading mb-2">Help</h3>
+                <ul>
+                    <li><a href="FAQs.html" class="footer-link">FAQs</a></li>
+                    <li><a href="Classes.html" class="footer-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading mb-2">Company</h3>
+                <ul>
+                    <li><a href="Aboutus.html" class="footer-link">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-8 flex justify-center space-x-6">
+            <a href="https://www.instagram.com/"><img src="images/Instagram.png" alt="Instagram" class="footer-icon"></a>
+            <a href="https://www.facebook.com/"><img src="images/Facebook.png" alt="Facebook" class="footer-icon"></a>
+            <a href="https://x.com/"><img src="images/X.png" alt="Twitter" class="footer-icon"></a>
+            <a href="https://www.youtube.com/"><img src="images/YT.png" alt="YouTube" class="footer-icon"></a>
+        </div>
+        <div class="footer-text mt-4">
+            If you are using a screen reader and are having problems using this website, please call <span class="font-medium">&lt;959 428 591 936&gt;</span> for assistance.
+        </div>
+        <div class="footer-copyright mt-2">
+            &copy; 2024 DoBu Martial Arts. All rights reserved.
+        </div>
+    </footer>
+    
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("form").submit(function(event) {
+                let isValid = true;
+    
+                $(".error-message").remove();
+    
+                if ($("#firstName").val().trim() === "") {
+                    isValid = false;
+                    $("#firstName").after('<div class="error-message text-danger">First Name is required</div>');
+                }
+    
+                if ($("#lastName").val().trim() === "") {
+                    isValid = false;
+                    $("#lastName").after('<div class="error-message text-danger">Last Name is required</div>');
+                }
+    
+                const email = $("#email").val().trim();
+                const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+                if (email === "" || !emailRegex.test(email)) {
+                    isValid = false;
+                    $("#email").after('<div class="error-message text-danger">Valid Email is required</div>');
+                }
+    
+                const phone = $("#phone").val().trim();
+                if (phone === "" || phone < 6) {
+                    isValid = false;
+                    $("#phone").after('<div class="error-message text-danger">Phone number must be atleast 6 digits</div>');
+                }
+    
+                const age = $("#age").val().trim();
+                if (age === "" || age < 0) {
+                    isValid = false;
+                    $("#age").after('<div class="error-message text-danger">Age cannot be minus number</div>');
+                }
+    
+                if ($("#membership").val() === "") {
+                    isValid = false;
+                    $("#membership").after('<div class="error-message text-danger">Please select a membership option</div>');
+                }
+    
+                if (!isValid) {
+                    event.preventDefault();
+                }
+            });
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+            $("#registrationForm").on("submit", function(event) {
+                event.preventDefault(); 
+
+                var firstName = $("#firstName").val();
+                var lastName = $("#lastName").val();
+                var email = $("#email").val();
+                var age = $("#age").val();
+                var phone = $("#phone").val();
+                var membershipOption = $("#membership").val();
+                
+                var additionalItems = [];
+                $(".form-check-input").each(function() {
+                    if ($(this).prop("checked")) {
+                        additionalItems.push($(this).next("label").text().trim());
+                    }
+                });
+
+                localStorage.setItem("firstName", firstName);
+                localStorage.setItem("lastName", lastName);
+                localStorage.setItem("email", email);
+                localStorage.setItem("age", age);
+                localStorage.setItem("phone", phone);
+                localStorage.setItem("membershipOption", membershipOption);
+                localStorage.setItem("additionalItems", JSON.stringify(additionalItems)); 
+
+                window.location.href = "response.html"; 
+            });
+        });
+    </script>
+
+</body>
+</html>

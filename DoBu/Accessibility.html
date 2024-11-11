@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/extra.css">
+
+</head>
+<body class="bg-white text-charcoal-black" style="background-image: url('images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;">
+
+    <nav class="navbar py-4" style="background-image: url('images/navbg1.jpg'); background-size: cover; background-position: center;">
+        <div class="container mx-auto flex items-center justify-between">
+            
+            <div class="nav-links flex items-center space-x-1"> 
+                <a href="index.html" class="logo-link"> 
+                    <img src="images/logo.png" alt="Dobu Logo" style="width: 140px;">
+                </a>       
+                <div class="hidden md:flex items-center space-x-10">
+                    <a href="Classes.html" class="nav-link">Classes & Programs</a>
+                    <a href="Membership.html" class="nav-link">Membership</a>
+                    <a href="Events.html" class="nav-link">Events</a>
+                    <a href="Aboutus.html" class="nav-link">About Us</a>
+                    <a href="Contact.html" class="nav-link">Contact Us</a>
+                </div>
+            </div>
+            
+            <div class="md:hidden flex justify-end">
+                <button id="mobile-menu-button" class="text-deep-red focus:outline-none">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-ivory">
+                <div class="flex flex-col space-y-4">
+                    <a href="Classes.html" class="nav-link block px-4 py-2">Classes & Programs</a>
+                    <a href="Membership.html" class="nav-link block px-4 py-2">Membership</a>
+                    <a href="Events.html" class="nav-link block px-4 py-2">Events</a>
+                    <a href="Aboutus.html" class="nav-link block px-4 py-2">About Us</a>
+                    <a href="Contact.html" class="nav-link block px-4 py-2">Contact Us</a>
+                </div>
+        </div>
+    </nav>
+    
+
+    <main>
+        <section class="qa-section py-5">
+            <div class="container">
+        
+                <section class="content">
+                    <section class="banner">
+                        <h1>Accessibility Statement</h1>
+                        <p>Committed to ensuring our website is accessible to all users, including those with disabilities.</p>
+                        
+                    </section>
+                    <h2>Introduction</h2>
+                    <p>At Dobu Martial Arts, we are committed to providing an inclusive experience for all individuals. We continuously strive to make our website accessible to the widest possible audience, including those with disabilities. We recognize the importance of accessibility, and we aim to ensure that everyone can access our services, information, and resources online.</p>
+        
+                    <h2>Accessibility Features</h2>
+                    <p>We have taken several steps to make our website more accessible. This includes ensuring that all images have descriptive alt text, links are clearly labeled, and content is organized in a way that is easy to navigate with a screen reader or keyboard. We have also ensured that our color contrast meets accessibility standards, so text is readable for those with visual impairments.</p>
+        
+                    <p>For visitors who require assistance, we offer a direct contact number for personalized support. Simply call <strong><a href="tel:+959428591936">+959 428 591 936</a></strong>, and our team will be happy to help.</p>
+        
+                    <h2>Browser and Device Compatibility</h2>
+                    <p>Our website is compatible with most modern browsers, including Chrome, Firefox, Safari, and Edge. We also ensure that the site is mobile-responsive, meaning it will work across different devices, whether you're using a desktop computer, tablet, or smartphone. We recommend using the latest versions of these browsers for the best experience.</p>
+        
+                    <h2>Screen Reader Compatibility</h2>
+                    <p>We understand that many of our visitors rely on screen readers to access web content. Our website is designed with screen reader compatibility in mind. We use semantic HTML markup, meaning that content is structured in a way that makes sense to users who navigate with screen readers.</p>
+        
+                    <h2>Customizable Font Sizes</h2>
+                    <p>For those who need larger text, our website allows you to adjust the font size in your browser settings. This makes it easier for people with visual impairments to read the text without compromising the website's layout or functionality.</p>
+        
+                    <h2>Video and Audio Content</h2>
+                    <p>We strive to ensure that all video and audio content on our website is accessible. Where applicable, we provide captions and transcripts for videos. For audio content, we ensure that it is accompanied by a written version or a transcript to ensure equal access to information.</p>
+        
+                    <h2>Feedback and Assistance</h2>
+                    <p>If you experience any difficulty accessing our website or require assistance, please contact us directly. We welcome feedback from our users to help us improve the accessibility of our website. You can reach us at <strong><a href="mailto:info@dobu.com">info@dobu.com</a></strong>.</p>
+        
+                    <h2>Accessibility Enhancements</h2>
+                    <p>We are continuously working to enhance the accessibility of our website. Our team is committed to making ongoing improvements to ensure we meet the needs of all users. We regularly evaluate the website using automated accessibility testing tools and conduct user testing with individuals with disabilities to identify areas for improvement.</p>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer p-8">
+        <div class="container mx-auto grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
+            <div>
+                <h3 class="footer-heading mb-2">Do Bu</h3>
+                <ul>
+                    <li><a href="Index.html" class="footer-link">Home</a></li>
+                    <li><a href="Classes.html" class="footer-link">Classes & Programs</a></li>
+                    <li><a href="Membership.html" class="footer-link">Membership</a></li>
+                    <li><a href="Events.html" class="footer-link">Events</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading mb-2">Legal</h3>
+                <ul>
+                    <li><a href="Accessibility.html" class="footer-link">Accessibility</a></li>
+                    <li><a href="Privacy.html" class="footer-link">Privacy Policy</a></li>
+                    <li><a href="Terms&Conditions.html" class="footer-link">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading mb-2">Help</h3>
+                <ul>
+                    <li><a href="FAQs.html" class="footer-link">FAQs</a></li>
+                    <li><a href="Classes.html" class="footer-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading mb-2">Company</h3>
+                <ul>
+                    <li><a href="Aboutus.html" class="footer-link">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-8 flex justify-center space-x-6">
+            <a href="https://www.instagram.com/"><img src="images/Instagram.png" alt="Instagram" class="footer-icon"></a>
+            <a href="https://www.facebook.com/"><img src="images/Facebook.png" alt="Facebook" class="footer-icon"></a>
+            <a href="https://x.com/"><img src="images/X.png" alt="Twitter" class="footer-icon"></a>
+            <a href="https://www.youtube.com/"><img src="images/YT.png" alt="YouTube" class="footer-icon"></a>
+        </div>
+        <div class="footer-text mt-4">
+            If you are using a screen reader and are having problems using this website, please call <span class="font-medium">&lt;959 428 591 936&gt;</span> for assistance.
+        </div>
+        <div class="footer-copyright mt-2">
+            &copy; 2024 DoBu Martial Arts. All rights reserved.
+        </div>
+    </footer> 
+
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>

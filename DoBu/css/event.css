@@ -1,0 +1,173 @@
+
+.slideshow {
+    position: relative;
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.carousel-inner .carousel-item {
+    height: 500px; 
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.carousel-caption h5 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #f3f0ef; 
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    color: #f3f0ef;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(204, 204, 202, 0.289);
+    color: #1D1D1D;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: rgba(204, 204, 202, 0.755);
+    color: #1D1D1D;
+}
+
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item {
+        height: 300px; 
+    }
+
+    .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 10px;
+        border-radius: 5px;
+        bottom: 20px; 
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.5rem; 
+        font-weight: bold;
+        color: #f3f0ef;
+    }
+
+    .carousel-caption p {
+        font-size: 0.875rem; 
+        color: #f3f0ef;
+    }
+
+    .carousel-caption a.btn {
+        font-size: 0.875rem; 
+        padding: 10px 20px;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        background-color: rgba(204, 204, 202, 0.289);
+        color: #1D1D1D;
+        border-radius: 50%;
+        width: 30px; 
+        height: 30px;
+    }
+
+    .carousel-control-prev:hover .carousel-control-prev-icon,
+    .carousel-control-next:hover .carousel-control-next-icon {
+        background-color: rgba(204, 204, 202, 0.755);
+        color: #1D1D1D;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-caption {
+        padding: 8px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.25rem; 
+    }
+
+    .carousel-caption p {
+        font-size: 0.75rem; 
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        width: 25px; 
+        height: 25px;
+    }
+}
+
+.upcoming-events h2 {
+    font-size: 2rem;
+    color: #A31414;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.event-card img {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.event-card:hover img {
+    transform: scale(1.05);
+}
+
+.event-overlay {
+    background-color: rgba(0, 0, 0, 0.315); 
+    color: #f3f0ef;
+    font-size: 2rem;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.event-card:hover .event-overlay {
+    opacity: 1;
+}
+
+.event-highlights h2 {
+    font-size: 1.5rem;
+    color: #A31414; 
+    margin-bottom: 1rem;
+}
+
+.highlight-image {
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.highlight-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.event-highlights .col-md-3 {
+    padding: 0.5rem; 
+}
+
+.btn-register {
+    background-color: #A31414; 
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-register:hover {
+    background-color: #871010; 
+    transform: translateY(-2px);
+}
+

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/event.css">
+</head>
+<body class="bg-white text-charcoal-black">
+
+    <nav class="navbar py-4" style="background-image: url('images/navbg1.jpg'); background-size: cover; background-position: center;">
+        <div class="container mx-auto flex items-center justify-between">
+            
+            <div class="nav-links flex items-center space-x-1"> 
+                <a href="index.html" class="logo-link"> 
+                    <img src="images/logo.png" alt="Dobu Logo" style="width: 140px;">
+                </a>       
+                <div class="hidden md:flex items-center space-x-10">
+                    <a href="Classes.html" class="nav-link">Classes & Programs</a>
+                    <a href="Membership.html" class="nav-link">Membership</a>
+                    <a href="Events.html" class="nav-link">Events</a>
+                    <a href="Aboutus.html" class="nav-link">About Us</a>
+                    <a href="Contact.html" class="nav-link">Contact Us</a>
+                </div>
+            </div>
+            
+            <div class="md:hidden flex justify-end">
+                <button id="mobile-menu-button" class="text-deep-red focus:outline-none">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-ivory">
+                <div class="flex flex-col space-y-4">
+                    <a href="Classes.html" class="nav-link block px-4 py-2">Classes & Programs</a>
+                    <a href="Membership.html" class="nav-link block px-4 py-2">Membership</a>
+                    <a href="Events.html" class="nav-link block px-4 py-2">Events</a>
+                    <a href="Aboutus.html" class="nav-link block px-4 py-2">About Us</a>
+                    <a href="Contact.html" class="nav-link block px-4 py-2">Contact Us</a>
+                </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="slideshow my-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/event1.png" class="d-block w-100" alt="Chinese New Year Event">
+                        <div class="carousel-caption">
+                            <h5>Chinese New Year Martial Arts Showcase</h5>
+                            <p>Celebrate the Year of the Dragon with a traditional martial arts demonstration and cultural festivities.</p>
+                            <p><strong>Date:</strong> February 10, 2024</p>
+                            <p><strong>Time:</strong> 2:00 PM - 5:00 PM</p>
+                            <p><strong>Location:</strong> Dobu Martial Arts Center, Main Hall</p>
+                            <a href="Membership.html#register-form-section" class="btn btn-lg btn-register mt-3">
+                                Register Now
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="carousel-item">
+                        <img src="images/bg11.png" class="d-block w-100" alt="Martial Arts Workshop">
+                        <div class="carousel-caption">
+                            <h5>Martial Arts Techniques Workshop</h5>
+                            <p>Join our hands-on workshop to learn foundational techniques and improve your skills.</p>
+                            <p><strong>Date:</strong> March 15, 2024</p>
+                            <p><strong>Time:</strong> 10:00 AM - 1:00 PM</p>
+                            <p><strong>Location:</strong> Dobu Training Room 1</p>
+                            <a href="Membership.html#register-form-section" class="btn btn-lg btn-register mt-3">
+                                Register Now
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="carousel-item">
+                        <img src="images/bg13.png" class="d-block w-100" alt="Self-Defense Seminar">
+                        <div class="carousel-caption">
+                            <h5>Self-Defense Seminar</h5>
+                            <p>Learn practical self-defense moves and boost your confidence with guidance from our experienced instructors.</p>
+                            <p><strong>Date:</strong> April 20, 2024</p>
+                            <p><strong>Time:</strong> 3:00 PM - 6:00 PM</p>
+                            <p><strong>Location:</strong> Dobu Martial Arts Center, Room A</p>
+                            <a href="Membership.html#register-form-section" class="btn btn-lg btn-register mt-3">
+                                Register Now
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="carousel-item">
+                        <img src="images/event4.png" class="d-block w-100" alt="Annual Martial Arts Tournament">
+                        <div class="carousel-caption">
+                            <h5>Annual Martial Arts Tournament</h5>
+                            <p>Witness competitive spirit and skill as martial artists compete for the title in this prestigious tournament.</p>
+                            <p><strong>Date:</strong> June 5, 2024</p>
+                            <p><strong>Time:</strong> 9:00 AM - 6:00 PM</p>
+                            <p><strong>Location:</strong> Dobu Sports Arena</p>
+                            <a href="Membership.html#register-form-section" class="btn btn-lg btn-register mt-3">
+                                Register Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        
+        <section class="upcoming-events my-12">
+            <div class="container text-center">
+                <h2 class="text-xl font-weight-bold mb-6">Upcoming Events</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="event-card position-relative">
+                            <img src="images/bg22.jpg" class="img-fluid w-100" alt="Upcoming Event 1">
+                            <div class="event-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                                <div class="text-center text-light">
+                                    <h3 class="h5">Spring Martial Arts Festival</h3>
+                                    <p>April 30, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="event-card position-relative">
+                            <img src="images/bg23.png" class="img-fluid w-100" alt="Upcoming Event 2">
+                            <div class="event-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                                <div class="text-center text-light">
+                                    <h3 class="h5">Youth Martial Arts Camp</h3>
+                                    <p>May 15, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="event-highlights my-12">
+            <div class="container text-center">
+                <h2 class="text-xl font-weight-bold mb-6">Event Highlights</h2>
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+                        <img src="images/bg24.png" class="img-fluid highlight-image" alt="Event Highlight 1">
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <img src="images/bg25.png" class="img-fluid highlight-image" alt="Event Highlight 2">
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <img src="images/bg7.png" class="img-fluid highlight-image" alt="Event Highlight 3">
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <img src="images/bg26.png" class="img-fluid highlight-image" alt="Event Highlight 4">
+                    </div>
+    
+                    <div class="col-md-3 mb-4">
+                        <img src="images/bg27.png" class="img-fluid highlight-image" alt="Event Highlight 5">
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <img src="images/bg28.png" class="img-fluid highlight-image" alt="Event Highlight 6">
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <img src="images/bg29.png" class="img-fluid highlight-image" alt="Event Highlight 7">
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <img src="images/bg10.png" class="img-fluid highlight-image" alt="Event Highlight 8">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer p-8">
+        <div class="container mx-auto grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
+            <div>
+                <h3 class="footer-heading mb-2">Do Bu</h3>
+                <ul>
+                    <li><a href="Index.html" class="footer-link">Home</a></li>
+                    <li><a href="Classes.html" class="footer-link">Classes & Programs</a></li>
+                    <li><a href="Membership.html" class="footer-link">Membership</a></li>
+                    <li><a href="Events.html" class="footer-link">Events</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading mb-2">Legal</h3>
+                <ul>
+                    <li><a href="Accessibility.html" class="footer-link">Accessibility</a></li>
+                    <li><a href="Privacy.html" class="footer-link">Privacy Policy</a></li>
+                    <li><a href="Terms&Conditions.html" class="footer-link">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading mb-2">Help</h3>
+                <ul>
+                    <li><a href="FAQs.html" class="footer-link">FAQs</a></li>
+                    <li><a href="Classes.html" class="footer-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading mb-2">Company</h3>
+                <ul>
+                    <li><a href="Aboutus.html" class="footer-link">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-8 flex justify-center space-x-6">
+            <a href="https://www.instagram.com/"><img src="images/Instagram.png" alt="Instagram" class="footer-icon"></a>
+            <a href="https://www.facebook.com/"><img src="images/Facebook.png" alt="Facebook" class="footer-icon"></a>
+            <a href="https://x.com/"><img src="images/X.png" alt="Twitter" class="footer-icon"></a>
+            <a href="https://www.youtube.com/"><img src="images/YT.png" alt="YouTube" class="footer-icon"></a>
+        </div>
+        <div class="footer-text mt-4">
+            If you are using a screen reader and are having problems using this website, please call <span class="font-medium">&lt;959 428 591 936&gt;</span> for assistance.
+        </div>
+        <div class="footer-copyright mt-2">
+            &copy; 2024 DoBu Martial Arts. All rights reserved.
+        </div>
+    </footer> 
+
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>

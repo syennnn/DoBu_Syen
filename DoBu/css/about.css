@@ -1,0 +1,100 @@
+
+.instructors-section {
+    margin-bottom: 1.5rem;
+    
+}
+
+
+.section-header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1D1D1D;
+    margin-bottom: 1.5rem;
+}
+
+.instructor-card {
+    background-color: #dadad9;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.instructor-image {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .instructor-image {
+        margin: 0;
+    }
+}
+
+.instructor-info {
+    flex: 1;
+    padding: 1rem;
+}
+
+.instructor-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #A31414; 
+    margin-bottom: 0.5rem;
+}
+
+.instructor-bio {
+    font-size: 1rem;
+    color: #1D1D1D;
+    line-height: 1.6;
+}
+
+.history-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+
+  .history-section h2 {
+    color: #dadad9; 
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .history-section p {
+    background-color: #2a292977; 
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #dadad9;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+ 
+  .history-section p.lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #dadad9; 
+  }
+  
+  .history-section .container {
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .history-section {
+      padding: 10px 0;
+    }
+    .history-section h2 {
+      font-size: 2rem;
+    }
+    .history-section p {
+      font-size: 1rem;
+    }
+  }
+  

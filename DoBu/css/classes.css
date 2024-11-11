@@ -1,0 +1,143 @@
+
+.classes-section {
+    margin-bottom: 1.5rem;
+}
+
+.section-header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1D1D1D;
+    margin-bottom: 1.5rem;
+}
+
+.class-detail-card {
+    background-color: #dadad9;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.class-image {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .class-image {
+        margin: 0;
+    }
+}
+
+.class-info {
+    flex: 1;
+    padding: 1rem;
+}
+
+/* Class Title */
+.class-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #A31414; 
+    margin-bottom: 0.5rem;
+}
+
+/* Class Description */
+.class-description {
+    font-size: 1rem;
+    color: #1D1D1D;
+    line-height: 1.6;
+} 
+
+.private-tuition-card {
+    width: 75%; 
+    margin: auto;
+}
+
+.register-btn {
+    display: inline-block;
+    color: #FFFFFF; 
+    background-color: #A31414;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem; 
+    font-weight: 500;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.register-btn:hover {
+    background-color: #8B0F0F; 
+}
+
+.facility-header h1 {
+    font-size: 2.5rem;
+    color: #A31414;
+    margin-top: 10px;
+
+}
+
+.facility-text {
+    font-size: 1rem;
+    color: #1D1D1D;
+    max-width: 800px;
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-body {
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: left;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #A31414;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #1D1D1D;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Merriweather', serif;
+}
+
+/* Responsive Styling */
+@media (min-width: 768px) {
+    .facility-header h1 {
+        font-size: 3rem;
+    }
+
+    .facility-text {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .card-img-top {
+        height: 200px;
+    }
+}
+

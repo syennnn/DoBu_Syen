@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="bg-white text-charcoal-black">
+
+    <nav class="navbar py-4" style="background-image: url('images/navbg1.jpg'); background-size: cover; background-position: center;">
+        <div class="container mx-auto flex items-center justify-between">
+            
+            <div class="nav-links flex items-center space-x-1"> 
+                <a href="index.html" class="logo-link"> 
+                    <img src="images/logo.png" alt="Dobu Logo" style="width: 140px;">
+                </a>       
+                <div class="hidden md:flex items-center space-x-10">
+                    <a href="Classes.html" class="nav-link">Classes & Programs</a>
+                    <a href="Membership.html" class="nav-link">Membership</a>
+                    <a href="Events.html" class="nav-link">Events</a>
+                    <a href="Aboutus.html" class="nav-link">About Us</a>
+                    <a href="Contact.html" class="nav-link">Contact Us</a>
+                </div>
+            </div>
+            
+            <div class="md:hidden flex justify-end">
+                <button id="mobile-menu-button" class="text-deep-red focus:outline-none">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-ivory">
+                <div class="flex flex-col space-y-4">
+                    <a href="Classes.html" class="nav-link block px-4 py-2">Classes & Programs</a>
+                    <a href="Membership.html" class="nav-link block px-4 py-2">Membership</a>
+                    <a href="Events.html" class="nav-link block px-4 py-2">Events</a>
+                    <a href="Aboutus.html" class="nav-link block px-4 py-2">About Us</a>
+                    <a href="Contact.html" class="nav-link block px-4 py-2">Contact Us</a>
+                </div>
+        </div>
+    </nav>
+    
+    <main class="container mx-auto my-12">
+        <section class="banner-section">
+            <img src="images/bg8.png" alt="Dobu Welcome Banner">
+            <div class="banner-overlay">
+                <h1 class="banner-title">Dobu</h1>
+                <p class="banner-subtitle">Embrace the elegance and tradition of martial arts.</p>
+            </div>
+        </section>
+        <section class="about-dobu mt-12">
+            <div class="container max-w-4xl mx-auto text-center">
+                <h2 class="section-header text-3xl font-bold text-deepred">What is Dobu?</h2>
+                <p class="mt-6 text-lg text-gray-800 leading-relaxed">
+                    Dobu is a martial arts academy that embodies both the elegance and the discipline of traditional combat arts. Founded by masters from Southeast Asia, our academy combines centuries-old teachings with modern techniques, focusing on mind-body harmony, discipline, and strength. Whether you're looking to improve your fitness, learn self-defense, or explore the spiritual side of martial arts, Dobu offers a comprehensive approach for everyone.
+                </p>
+    
+                <h2 class="section-header text-3xl font-bold text-deepred mt-12">What is Martial Arts?</h2>
+                <p class="mt-6 text-lg text-gray-800 leading-relaxed">
+                    Martial arts are ancient practices developed for self-defense, physical fitness, and personal growth. From the highly disciplined techniques of Kung Fu and Karate to the fluid movements of Taekwondo and Judo, martial arts are rich in culture and history. They promote balance, flexibility, and strength, while fostering respect and a deep understanding of one's inner self. At Dobu, we teach not just the techniques, but the philosophy and principles that make martial arts a lifelong journey of improvement.
+                </p>
+            </div>
+        </section>
+
+        <section class="slideshow my-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="Events.html">
+                            <img src="images/event1.png" class="d-block w-100" alt="Chinese New Year Event">
+                            <div class="carousel-caption">
+                                <h5>Chinese New Year Martial Arts Showcase</h5>
+                                <p>Celebrate the Year of the Dragon with a traditional martial arts demonstration and cultural festivities.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="Events.html">
+                            <img src="images/bg11.png" class="d-block w-100" alt="Martial Arts Workshop">
+                            <div class="carousel-caption">
+                                <h5>Martial Arts Techniques Workshop</h5>
+                                <p>Join our hands-on workshop to learn foundational techniques and improve your skills.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="Events.html">
+                            <img src="images/bg13.png" class="d-block w-100" alt="Self-Defense Seminar">
+                            <div class="carousel-caption">
+                                <h5>Self-Defense Seminar</h5>
+                                <p>Learn practical self-defense moves and boost your confidence with guidance from our experienced instructors.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="Events.html">
+                            <img src="images/event4.png" class="d-block w-100" alt="Annual Martial Arts Tournament">
+                            <div class="carousel-caption">
+                                <h5>Annual Martial Arts Tournament</h5>
+                                <p>Witness competitive spirit and skill as martial artists compete for the title in this prestigious tournament.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+        
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer class="footer p-8">
+        <div class="container mx-auto grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
+            <div>
+                <h3 class="footer-heading mb-2">Do Bu</h3>
+                <ul>
+                    <li><a href="Index.html" class="footer-link">Home</a></li>
+                    <li><a href="Classes.html" class="footer-link">Classes & Programs</a></li>
+                    <li><a href="Membership.html" class="footer-link">Membership</a></li>
+                    <li><a href="Events.html" class="footer-link">Events</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading mb-2">Legal</h3>
+                <ul>
+                    <li><a href="Accessibility.html" class="footer-link">Accessibility</a></li>
+                    <li><a href="Privacy.html" class="footer-link">Privacy Policy</a></li>
+                    <li><a href="Terms&Conditions.html" class="footer-link">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading mb-2">Help</h3>
+                <ul>
+                    <li><a href="FAQs.html" class="footer-link">FAQs</a></li>
+                    <li><a href="Classes.html" class="footer-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading mb-2">Company</h3>
+                <ul>
+                    <li><a href="Aboutus.html" class="footer-link">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-8 flex justify-center space-x-6">
+            <a href="https://www.instagram.com/"><img src="images/Instagram.png" alt="Instagram" class="footer-icon"></a>
+            <a href="https://www.facebook.com/"><img src="images/Facebook.png" alt="Facebook" class="footer-icon"></a>
+            <a href="https://x.com/"><img src="images/X.png" alt="Twitter" class="footer-icon"></a>
+            <a href="https://www.youtube.com/"><img src="images/YT.png" alt="YouTube" class="footer-icon"></a>
+        </div>
+        <div class="footer-text mt-4">
+            If you are using a screen reader and are having problems using this website, please call <span class="font-medium">&lt;959 428 591 936&gt;</span> for assistance.
+        </div>
+        <div class="footer-copyright mt-2">
+            &copy; 2024 DoBu Martial Arts. All rights reserved.
+        </div>
+    </footer> 
+
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
